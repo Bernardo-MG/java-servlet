@@ -15,7 +15,7 @@ public class HelloServlet extends HttpServlet {
     private static final long serialVersionUID = 5892091829006189796L;
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    protected void doGet(final HttpServletRequest request, final HttpServletResponse response)
             throws ServletException, IOException {
         final String name;
         final String hello;
