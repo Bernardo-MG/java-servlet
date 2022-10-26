@@ -39,6 +39,7 @@ The verify phase is required, otherwise some of the reports won't be generated.
 Build the war and deploy it in a servlet container, such as Tomcat. If deployed locally then the project will be accessible at the URL:
 
 ```
+http://localhost:8080/java-servlet-example/hello?name=me
 ```
 
 ## Collaborate
