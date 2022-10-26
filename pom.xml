@@ -177,7 +177,7 @@
       <!-- =========== DEPENDENCIES VERSIONS ============ -->
       <!-- ============================================== -->
       <junit.jupiter.version>5.8.2</junit.jupiter.version>
-      <jsr305.version>3.0.1</jsr305.version>
+      <jsr305.version>3.0.2</jsr305.version>
       <mockito.version>4.6.1</mockito.version>
       <log4j.version>2.19.0</log4j.version>
       <slf4j.version>1.7.36</slf4j.version>
