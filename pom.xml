@@ -172,7 +172,7 @@
       <!-- ============================================== -->
       <!-- =============== MANIFEST DATA ================ -->
       <!-- ============================================== -->
-      <manifest.name>com/bernardomg/example</manifest.name>
+      <manifest.name>com/bernardomg/example/servlet</manifest.name>
       <!-- ============================================== -->
       <!-- =========== DEPENDENCIES VERSIONS ============ -->
       <!-- ============================================== -->
@@ -181,9 +181,8 @@
       <mockito.version>4.6.1</mockito.version>
       <log4j.version>2.19.0</log4j.version>
       <slf4j.version>1.7.36</slf4j.version>
-      <servlet.version>6.0.0</servlet.version>
+      <servlet.version>2.5</servlet.version>
       <swagger.version>1.6.8</swagger.version>
-      <swagger.initializer.version>2.2.4</swagger.initializer.version>
       <!-- ============================================== -->
       <!-- ============ PLUGIN CONFIGURATION ============ -->
       <!-- ============================================== -->
@@ -226,8 +225,8 @@
       <!-- ============================================== -->
       <dependency>
          <!-- Servlet API -->
-         <groupId>jakarta.servlet</groupId>
-         <artifactId>jakarta.servlet-api</artifactId>
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
          <version>${servlet.version}</version>
       </dependency>
       <!-- ============================================== -->
@@ -265,7 +264,7 @@
       <dependency>
          <!-- Log4j Web -->
          <groupId>org.apache.logging.log4j</groupId>
-         <artifactId>log4j-jakarta-web</artifactId>
+         <artifactId>log4j-web</artifactId>
          <version>${log4j.version}</version>
          <scope>provided</scope>
       </dependency>

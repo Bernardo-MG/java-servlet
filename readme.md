@@ -42,6 +42,12 @@ Build the war and deploy it in a servlet container, such as Tomcat. If deployed 
 http://localhost:8080/java-servlet-example/hello?name=me
 ```
 
+The API docs will be available at:
+
+```
+http://localhost:8080/java-servlet-example/api-docs/swagger.json
+```
+
 ## Collaborate
 
 Any kind of help with the project will be well received, and there are two main ways to give such help:
