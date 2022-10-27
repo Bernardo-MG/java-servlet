@@ -23,7 +23,7 @@ import io.swagger.annotations.Tag;
         consumes = { "application/http" }, produces = { "application/http" },
         schemes = { SwaggerDefinition.Scheme.HTTP, SwaggerDefinition.Scheme.HTTPS },
         tags = { @Tag(name = "example", description = "Example components") })
-@Api(value = "/documented")
+@Api(value = "/hello")
 public class HelloServlet extends HttpServlet {
 
     private static final long serialVersionUID = 5892091829006189796L;
