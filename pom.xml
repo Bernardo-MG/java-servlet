@@ -181,7 +181,7 @@
       <mockito.version>4.6.1</mockito.version>
       <log4j.version>2.19.0</log4j.version>
       <slf4j.version>1.7.36</slf4j.version>
-      <servlet.version>2.5</servlet.version>
+      <servlet.version>3.0.1</servlet.version>
       <swagger.version>1.6.8</swagger.version>
       <!-- ============================================== -->
       <!-- ============ PLUGIN CONFIGURATION ============ -->
@@ -226,8 +226,9 @@
       <dependency>
          <!-- Servlet API -->
          <groupId>javax.servlet</groupId>
-         <artifactId>servlet-api</artifactId>
+         <artifactId>javax.servlet-api</artifactId>
          <version>${servlet.version}</version>
+         <scope>provided</scope>
       </dependency>
       <!-- ============================================== -->
       <!-- ================== SWAGGER =================== -->
