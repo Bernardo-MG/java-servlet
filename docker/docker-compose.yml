@@ -1,0 +1,11 @@
+version: '3'
+services:
+    servlet:
+        build:
+            context: ../
+            dockerfile: ./docker/Dockerfile
+            args:
+                WAR_NAME: java-servlet-example.war
+        ports:
+            - "8080:8080"
+            - "8000:8000"
