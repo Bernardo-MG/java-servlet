@@ -234,6 +234,12 @@
       <!-- ================== SWAGGER =================== -->
       <!-- ============================================== -->
       <dependency>
+         <!-- Swagger Annotations -->
+         <groupId>io.swagger</groupId>
+         <artifactId>swagger-annotations</artifactId>
+         <version>${swagger.version}</version>
+      </dependency>
+      <dependency>
          <!-- Swagger Servlet -->
          <groupId>io.swagger</groupId>
          <artifactId>swagger-servlet</artifactId>
