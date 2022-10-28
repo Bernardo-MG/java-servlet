@@ -24,7 +24,7 @@ http://localhost:8080/java-servlet-example/api-docs/swagger.json
 
 ### Docker image
 
-To ease deployin the project, Docker files are included:
+To ease deploying the project, Docker files are included:
 
 ```
 docker-compose -f docker/docker-compose.yml --project-name java-servlet-example up
