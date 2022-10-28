@@ -79,9 +79,9 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 The project has been released under the [MIT License][license].
 
 [issues]: https://github.com/bernardo-mg/java-servlet-example/issues
-[javadoc-develop]: https://docs.bernardomg.com/maven/java-servlet-example/apidocs
-[javadoc-release]: https://docs.bernardomg.com/development/maven/java-servlet-example/apidocs
+[javadoc-develop]: https://docs.bernardomg.com/development/maven/java-servlet-example/apidocs
+[javadoc-release]: https://docs.bernardomg.com/maven/java-servlet-example/apidocs
 [license]: https://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/java-servlet-example
-[site-develop]: https://docs.bernardomg.com/maven/java-servlet-example
-[site-release]: https://docs.bernardomg.com/development/maven/java-servlet-example
+[site-develop]: https://docs.bernardomg.com/development/maven/java-servlet-example
+[site-release]: https://docs.bernardomg.com/maven/java-servlet-example
