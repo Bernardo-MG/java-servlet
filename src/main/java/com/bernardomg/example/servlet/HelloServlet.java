@@ -25,6 +25,7 @@
 package com.bernardomg.example.servlet;
 
 import java.io.IOException;
+import java.io.Writer;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -75,15 +76,16 @@ public final class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         final String name;
         final String hello;
+        final Writer writer;
 
         name = request.getParameter("name");
         hello = String.format("Hello %s", name);
 
         response.setStatus(HttpServletResponse.SC_OK);
-        response.getWriter()
-            .write(hello);
-        response.getWriter()
-            .flush();
+
+        writer = response.getWriter();
+        writer.write(hello);
+        writer.flush();
     }
 
 }
