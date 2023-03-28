@@ -1,6 +1,12 @@
 # Usage
 
-If deployed locally the project will be accessible at the URL:
+This is a Maven project, first package the war:
+
+```
+mvn clean package
+```
+
+Then deploy into a servlet container, such as Tomcat. If done locally the project will be accessible at the URL:
 
 ```
 http://localhost:8080/java-servlet-example/hello?name=me
