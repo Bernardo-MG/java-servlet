@@ -1,6 +1,28 @@
 # Java Servlet Example
 
-Example setting up a Java servlet.
+Example for setting up a Java servlet. Just build the war and deploy into a servlet container, such as Tomcat.
+
+If deployed locally the project will be accessible at the URL:
+
+```
+http://localhost:8080/java-servlet-example/hello?name=me
+```
+
+And the API docs at:
+
+```
+http://localhost:8080/java-servlet-example/api-docs/swagger.json
+```
+
+## Docker image
+
+To make things easier just make use of the Docker files:
+
+```
+docker-compose -f docker/docker-compose.yml --project-name java-servlet-example up
+```
+
+This will build and deploy locally the project. The URLs are the same as in the previous example.
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
@@ -34,30 +56,6 @@ mvn verify site
 ```
 
 The verify phase is required, otherwise some of the reports won't be generated.
-
-## Usage
-
-Build the war and deploy it in a servlet container, such as Tomcat.
-
-If deployed locally then the project will be accessible at the URL:
-
-```
-http://localhost:8080/java-servlet-example/hello?name=me
-```
-
-The API docs will be available at:
-
-```
-http://localhost:8080/java-servlet-example/api-docs/swagger.json
-```
-
-### Docker image
-
-To ease deploying the project, Docker files are included:
-
-```
-docker-compose -f docker/docker-compose.yml --project-name java-servlet-example up
-```
 
 ## Collaborate
 

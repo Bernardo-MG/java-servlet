@@ -1,5 +1,23 @@
 # Usage
 
-Some general types about how to use the library should be added here.
+If deployed locally the project will be accessible at the URL:
 
-For more concrete information, create more specific pages.
+```
+http://localhost:8080/java-servlet-example/hello?name=me
+```
+
+And the API docs at:
+
+```
+http://localhost:8080/java-servlet-example/api-docs/swagger.json
+```
+
+## Docker image
+
+To make things easier just make use of the Docker files:
+
+```
+docker-compose -f docker/docker-compose.yml --project-name java-servlet-example up
+```
+
+This will build and deploy locally the project. The URLs are the same as in the previous example.
